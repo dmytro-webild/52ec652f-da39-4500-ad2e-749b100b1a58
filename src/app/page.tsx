@@ -64,23 +64,23 @@ export default function LandingPage() {
       ]}
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/fried-salmon-fillet-with-sauce-top_140725-6436.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/fried-salmon-fillet-with-sauce-top_140725-6436.jpg?_wi=1",
           imageAlt: "Luxury restaurant soul food interior",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-fried-fish-with-tomato-onion_176474-3362.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/top-view-fried-fish-with-tomato-onion_176474-3362.jpg?_wi=1",
           imageAlt: "Fried catfish dinner gourmet",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/chicken-wings-barbecue-sauce_140725-9472.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/chicken-wings-barbecue-sauce_140725-9472.jpg?_wi=1",
           imageAlt: "Slow smoked chicken wings",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/noodles-with-peas-corns-pan-tablecloth_114579-50113.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/noodles-with-peas-corns-pan-tablecloth_114579-50113.jpg?_wi=1",
           imageAlt: "Soul food vegetable side dishes",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-smiley-business-owner-with-document_23-2149434529.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-smiley-business-owner-with-document_23-2149434529.jpg?_wi=1",
           imageAlt: "Female chef in professional kitchen",
         },
         {
@@ -104,7 +104,7 @@ export default function LandingPage() {
           quote: "Everything was phenomenal… delicious and amazing customer service!",
           tag: "5 Stars",
           avatarSrc: "http://img.b2bpic.net/free-photo/friends-eating-conversating-restaurant_23-2148006713.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/fried-salmon-fillet-with-sauce-top_140725-6436.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/fried-salmon-fillet-with-sauce-top_140725-6436.jpg?_wi=2",
           imageAlt: "portrait of satisfied customer dining",
         },
         {
@@ -115,7 +115,7 @@ export default function LandingPage() {
           quote: "Best soul food! Catfish, mac & cheese, collard greens 🔥",
           tag: "5 Stars",
           avatarSrc: "http://img.b2bpic.net/free-photo/smiley-colleagues-eating-noodles-break_23-2149390520.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-fried-fish-with-tomato-onion_176474-3362.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/top-view-fried-fish-with-tomato-onion_176474-3362.jpg?_wi=2",
           imageAlt: "portrait of satisfied customer dining",
         },
         {
@@ -126,7 +126,7 @@ export default function LandingPage() {
           quote: "I can't remember the last time I had food this good.",
           tag: "5 Stars",
           avatarSrc: "http://img.b2bpic.net/free-photo/low-angle-friends-shaking-hands_23-2148395404.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/chicken-wings-barbecue-sauce_140725-9472.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/chicken-wings-barbecue-sauce_140725-9472.jpg?_wi=2",
           imageAlt: "portrait of satisfied customer dining",
         },
         {
@@ -137,7 +137,7 @@ export default function LandingPage() {
           quote: "Authentic, warm, and the portions are incredible.",
           tag: "5 Stars",
           avatarSrc: "http://img.b2bpic.net/free-photo/portrait-young-man-restaurant_23-2147861975.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/noodles-with-peas-corns-pan-tablecloth_114579-50113.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/noodles-with-peas-corns-pan-tablecloth_114579-50113.jpg?_wi=2",
           imageAlt: "portrait of satisfied customer dining",
         },
         {
@@ -148,7 +148,7 @@ export default function LandingPage() {
           quote: "Ms. T puts her heart into every single meal.",
           tag: "5 Stars",
           avatarSrc: "http://img.b2bpic.net/free-photo/lunch-cafe-olive-women-eating_1303-2349.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-smiley-business-owner-with-document_23-2149434529.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-smiley-business-owner-with-document_23-2149434529.jpg?_wi=2",
           imageAlt: "portrait of satisfied customer dining",
         },
       ]}
@@ -254,7 +254,7 @@ export default function LandingPage() {
             },
           ],
           reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/fried-salmon-fillet-with-sauce-top_140725-6436.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/fried-salmon-fillet-with-sauce-top_140725-6436.jpg?_wi=3",
           imageAlt: "fried catfish dinner gourmet",
         },
         {
@@ -274,7 +274,7 @@ export default function LandingPage() {
             },
           ],
           reverse: true,
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-fried-fish-with-tomato-onion_176474-3362.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/top-view-fried-fish-with-tomato-onion_176474-3362.jpg?_wi=3",
           imageAlt: "fried catfish dinner gourmet",
         },
         {
@@ -294,7 +294,7 @@ export default function LandingPage() {
             },
           ],
           reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/chicken-wings-barbecue-sauce_140725-9472.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/chicken-wings-barbecue-sauce_140725-9472.jpg?_wi=3",
           imageAlt: "fried catfish dinner gourmet",
         },
       ]}
