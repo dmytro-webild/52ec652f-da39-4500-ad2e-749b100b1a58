@@ -33,17 +33,11 @@ export default function LandingPage() {
       <NavbarStyleApple
       navItems={[
         {
-          name: "Menu",
-          id: "menu",
-        },
+          name: "Menu",          id: "menu"},
         {
-          name: "Story",
-          id: "about",
-        },
+          name: "Story",          id: "about"},
         {
-          name: "Visit",
-          id: "location",
-        },
+          name: "Visit",          id: "location"},
       ]}
       brandName="Ms. T's Kitchen"
     />
@@ -52,41 +46,26 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroBillboardCarousel
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       title="Ms. T’s Kitchen"
       description="Where Every Bite Feels Like Home"
       buttons={[
         {
-          text: "Order Now",
-          href: "#",
-        },
+          text: "Order Now",          href: "#"},
       ]}
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/fried-salmon-fillet-with-sauce-top_140725-6436.jpg?_wi=1",
-          imageAlt: "Luxury restaurant soul food interior",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/fried-salmon-fillet-with-sauce-top_140725-6436.jpg",          imageAlt: "Luxury restaurant soul food interior"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-fried-fish-with-tomato-onion_176474-3362.jpg?_wi=1",
-          imageAlt: "Fried catfish dinner gourmet",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/top-view-fried-fish-with-tomato-onion_176474-3362.jpg",          imageAlt: "Fried catfish dinner gourmet"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/chicken-wings-barbecue-sauce_140725-9472.jpg?_wi=1",
-          imageAlt: "Slow smoked chicken wings",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/chicken-wings-barbecue-sauce_140725-9472.jpg",          imageAlt: "Slow smoked chicken wings"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/noodles-with-peas-corns-pan-tablecloth_114579-50113.jpg?_wi=1",
-          imageAlt: "Soul food vegetable side dishes",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/noodles-with-peas-corns-pan-tablecloth_114579-50113.jpg",          imageAlt: "Soul food vegetable side dishes"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-smiley-business-owner-with-document_23-2149434529.jpg?_wi=1",
-          imageAlt: "Female chef in professional kitchen",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-smiley-business-owner-with-document_23-2149434529.jpg",          imageAlt: "Female chef in professional kitchen"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/fried-salmon-with-rice-raddish_140725-3403.jpg",
-          imageAlt: "Luxury restaurant soul food interior",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/fried-salmon-with-rice-raddish_140725-3403.jpg",          imageAlt: "Luxury restaurant soul food interior"},
       ]}
     />
   </div>
@@ -97,60 +76,15 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "1",
-          name: "Sarah J.",
-          date: "Oct 2025",
-          title: "Regular Guest",
-          quote: "Everything was phenomenal… delicious and amazing customer service!",
-          tag: "5 Stars",
-          avatarSrc: "http://img.b2bpic.net/free-photo/friends-eating-conversating-restaurant_23-2148006713.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/fried-salmon-fillet-with-sauce-top_140725-6436.jpg?_wi=2",
-          imageAlt: "portrait of satisfied customer dining",
-        },
+          id: "1",          name: "Sarah J.",          date: "Oct 2025",          title: "Regular Guest",          quote: "Everything was phenomenal… delicious and amazing customer service!",          tag: "5 Stars",          avatarSrc: "http://img.b2bpic.net/free-photo/friends-eating-conversating-restaurant_23-2148006713.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/fried-salmon-fillet-with-sauce-top_140725-6436.jpg",          imageAlt: "portrait of satisfied customer dining"},
         {
-          id: "2",
-          name: "Marcus R.",
-          date: "Sep 2025",
-          title: "Food Enthusiast",
-          quote: "Best soul food! Catfish, mac & cheese, collard greens 🔥",
-          tag: "5 Stars",
-          avatarSrc: "http://img.b2bpic.net/free-photo/smiley-colleagues-eating-noodles-break_23-2149390520.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-fried-fish-with-tomato-onion_176474-3362.jpg?_wi=2",
-          imageAlt: "portrait of satisfied customer dining",
-        },
+          id: "2",          name: "Marcus R.",          date: "Sep 2025",          title: "Food Enthusiast",          quote: "Best soul food! Catfish, mac & cheese, collard greens 🔥",          tag: "5 Stars",          avatarSrc: "http://img.b2bpic.net/free-photo/smiley-colleagues-eating-noodles-break_23-2149390520.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-fried-fish-with-tomato-onion_176474-3362.jpg",          imageAlt: "portrait of satisfied customer dining"},
         {
-          id: "3",
-          name: "Emily D.",
-          date: "Aug 2025",
-          title: "New Customer",
-          quote: "I can't remember the last time I had food this good.",
-          tag: "5 Stars",
-          avatarSrc: "http://img.b2bpic.net/free-photo/low-angle-friends-shaking-hands_23-2148395404.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/chicken-wings-barbecue-sauce_140725-9472.jpg?_wi=2",
-          imageAlt: "portrait of satisfied customer dining",
-        },
+          id: "3",          name: "Emily D.",          date: "Aug 2025",          title: "New Customer",          quote: "I can't remember the last time I had food this good.",          tag: "5 Stars",          avatarSrc: "http://img.b2bpic.net/free-photo/low-angle-friends-shaking-hands_23-2148395404.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/chicken-wings-barbecue-sauce_140725-9472.jpg",          imageAlt: "portrait of satisfied customer dining"},
         {
-          id: "4",
-          name: "David K.",
-          date: "Jul 2025",
-          title: "Regular Guest",
-          quote: "Authentic, warm, and the portions are incredible.",
-          tag: "5 Stars",
-          avatarSrc: "http://img.b2bpic.net/free-photo/portrait-young-man-restaurant_23-2147861975.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/noodles-with-peas-corns-pan-tablecloth_114579-50113.jpg?_wi=2",
-          imageAlt: "portrait of satisfied customer dining",
-        },
+          id: "4",          name: "David K.",          date: "Jul 2025",          title: "Regular Guest",          quote: "Authentic, warm, and the portions are incredible.",          tag: "5 Stars",          avatarSrc: "http://img.b2bpic.net/free-photo/portrait-young-man-restaurant_23-2147861975.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/noodles-with-peas-corns-pan-tablecloth_114579-50113.jpg",          imageAlt: "portrait of satisfied customer dining"},
         {
-          id: "5",
-          name: "Jessica M.",
-          date: "Jun 2025",
-          title: "Local Resident",
-          quote: "Ms. T puts her heart into every single meal.",
-          tag: "5 Stars",
-          avatarSrc: "http://img.b2bpic.net/free-photo/lunch-cafe-olive-women-eating_1303-2349.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-smiley-business-owner-with-document_23-2149434529.jpg?_wi=2",
-          imageAlt: "portrait of satisfied customer dining",
-        },
+          id: "5",          name: "Jessica M.",          date: "Jun 2025",          title: "Local Resident",          quote: "Ms. T puts her heart into every single meal.",          tag: "5 Stars",          avatarSrc: "http://img.b2bpic.net/free-photo/lunch-cafe-olive-women-eating_1303-2349.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-smiley-business-owner-with-document_23-2149434529.jpg",          imageAlt: "portrait of satisfied customer dining"},
       ]}
       title="Why Everyone Loves Us"
       description="Heartfelt feedback from our wonderful community."
@@ -165,41 +99,17 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "1",
-          name: "Golden Catfish Dinner",
-          price: "$18",
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-cooked-sliced-potatoes-with-meatballs-inside-plate-dark-blue-background_140725-50059.jpg",
-        },
+          id: "1",          name: "Golden Catfish Dinner",          price: "$18",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-cooked-sliced-potatoes-with-meatballs-inside-plate-dark-blue-background_140725-50059.jpg"},
         {
-          id: "2",
-          name: "Slow Smoked Wings",
-          price: "$14",
-          imageSrc: "http://img.b2bpic.net/free-photo/plate-chicken-wings-grunge-black-background_1258-200.jpg",
-        },
+          id: "2",          name: "Slow Smoked Wings",          price: "$14",          imageSrc: "http://img.b2bpic.net/free-photo/plate-chicken-wings-grunge-black-background_1258-200.jpg"},
         {
-          id: "3",
-          name: "Creamy Mac & Cheese",
-          price: "$8",
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-food-ingredients-with-soup-veggies_23-2148834779.jpg",
-        },
+          id: "3",          name: "Creamy Mac & Cheese",          price: "$8",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-food-ingredients-with-soup-veggies_23-2148834779.jpg"},
         {
-          id: "4",
-          name: "Seasoned Collard Greens",
-          price: "$7",
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-tasty-chicken-salad-with-vegetables_140725-85143.jpg",
-        },
+          id: "4",          name: "Seasoned Collard Greens",          price: "$7",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-tasty-chicken-salad-with-vegetables_140725-85143.jpg"},
         {
-          id: "5",
-          name: "Candied Sweet Potatoes",
-          price: "$7",
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-red-cabbage-green-onion_23-2148758897.jpg",
-        },
+          id: "5",          name: "Candied Sweet Potatoes",          price: "$7",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-red-cabbage-green-onion_23-2148758897.jpg"},
         {
-          id: "6",
-          name: "Signature Soul Plate",
-          price: "$22",
-          imageSrc: "http://img.b2bpic.net/free-photo/bowl-full-dry-pasta-wooden-table_114579-37402.jpg",
-        },
+          id: "6",          name: "Signature Soul Plate",          price: "$22",          imageSrc: "http://img.b2bpic.net/free-photo/bowl-full-dry-pasta-wooden-table_114579-37402.jpg"},
       ]}
       title="Signature Favorites"
       description="Handcrafted soul food favorites served with pride."
@@ -213,17 +123,11 @@ export default function LandingPage() {
       description="Ms. T’s Kitchen isn’t just a restaurant — it’s a place where flavor, culture, and heart come together. Every dish is crafted with passion, inspired by tradition, and served with genuine care."
       metrics={[
         {
-          value: "10+",
-          title: "Years of Tradition",
-        },
+          value: "10+",          title: "Years of Tradition"},
         {
-          value: "100%",
-          title: "Handcrafted Flavors",
-        },
+          value: "100%",          title: "Handcrafted Flavors"},
         {
-          value: "5k+",
-          title: "Happy Neighbors",
-        },
+          value: "5k+",          title: "Happy Neighbors"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/side-view-man-holding-coffee-cup_23-2149434533.jpg"
       mediaAnimation="blur-reveal"
@@ -238,64 +142,43 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Fried Favorites",
-          description: "Crispy golden goodness.",
-          media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/spaghetti-pasta-with-salmon-fillet-meat_1203-9629.jpg",
-          },
+          title: "Fried Favorites",          description: "Crispy golden goodness.",          media: {
+            imageSrc: "http://img.b2bpic.net/free-photo/fried-salmon-fillet-with-sauce-top_140725-6436.jpg",            imageAlt: "fried catfish dinner gourmet"},
           items: [
             {
               icon: CheckCircle,
-              text: "Catfish",
-            },
+              text: "Catfish"},
             {
               icon: CheckCircle,
-              text: "Wings",
-            },
+              text: "Wings"},
           ],
           reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/fried-salmon-fillet-with-sauce-top_140725-6436.jpg?_wi=3",
-          imageAlt: "fried catfish dinner gourmet",
         },
         {
-          title: "Soul Sides",
-          description: "Made fresh daily.",
-          media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/high-view-healthy-veggies-winter-food_23-2148717417.jpg",
-          },
+          title: "Soul Sides",          description: "Made fresh daily.",          media: {
+            imageSrc: "http://img.b2bpic.net/free-photo/top-view-fried-fish-with-tomato-onion_176474-3362.jpg",            imageAlt: "fried catfish dinner gourmet"},
           items: [
             {
               icon: CheckCircle,
-              text: "Collard Greens",
-            },
+              text: "Collard Greens"},
             {
               icon: CheckCircle,
-              text: "Sweet Potatoes",
-            },
+              text: "Sweet Potatoes"},
           ],
           reverse: true,
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-fried-fish-with-tomato-onion_176474-3362.jpg?_wi=3",
-          imageAlt: "fried catfish dinner gourmet",
         },
         {
-          title: "Specialty Meats",
-          description: "Slow cooked perfection.",
-          media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/fried-quails-table_140725-9548.jpg",
-          },
+          title: "Specialty Meats",          description: "Slow cooked perfection.",          media: {
+            imageSrc: "http://img.b2bpic.net/free-photo/chicken-wings-barbecue-sauce_140725-9472.jpg",            imageAlt: "fried catfish dinner gourmet"},
           items: [
             {
               icon: CheckCircle,
-              text: "Smoked Ribs",
-            },
+              text: "Smoked Ribs"},
             {
               icon: CheckCircle,
-              text: "Fried Wings",
-            },
+              text: "Fried Wings"},
           ],
           reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/chicken-wings-barbecue-sauce_140725-9472.jpg?_wi=3",
-          imageAlt: "fried catfish dinner gourmet",
         },
       ]}
       title="Daily Menu Highlights"
@@ -308,14 +191,7 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       names={[
-        "Shawnee Daily",
-        "City Eats",
-        "Black Owned Biz",
-        "Local Foodie",
-        "Community Hub",
-        "Comfort Kitchens",
-        "Top Rated Soul",
-      ]}
+        "Shawnee Daily",        "City Eats",        "Black Owned Biz",        "Local Foodie",        "Community Hub",        "Comfort Kitchens",        "Top Rated Soul"]}
       title="Community Recognition"
       description="Proudly supporting and serving our amazing community."
     />
@@ -327,20 +203,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "1",
-          title: "Where are you located?",
-          content: "10201 47th St B, Shawnee, KS",
-        },
+          id: "1",          title: "Where are you located?",          content: "10201 47th St B, Shawnee, KS"},
         {
-          id: "2",
-          title: "What are your hours?",
-          content: "Open Daily from 3:30 PM",
-        },
+          id: "2",          title: "What are your hours?",          content: "Open Daily from 3:30 PM"},
         {
-          id: "3",
-          title: "Do you take orders online?",
-          content: "Yes, click the Order Now button!",
-        },
+          id: "3",          title: "Do you take orders online?",          content: "Yes, click the Order Now button!"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/side-view-baked-fish-fillet-garnished-with-vegetables-spices-sauce-plate-with-glass-white-wine-table_140725-11498.jpg"
       title="Visit Us"
@@ -353,8 +220,7 @@ export default function LandingPage() {
       <ContactSplit
       useInvertedBackground={false}
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       tag="Stay Connected"
       title="Get Special Updates"
       description="Sign up for daily specials and exclusive news."
@@ -368,29 +234,19 @@ export default function LandingPage() {
       logoText="Ms. T's Kitchen"
       columns={[
         {
-          title: "Navigate",
-          items: [
+          title: "Navigate",          items: [
             {
-              label: "Home",
-              href: "/",
-            },
+              label: "Home",              href: "/"},
             {
-              label: "Menu",
-              href: "#menu",
-            },
+              label: "Menu",              href: "#menu"},
           ],
         },
         {
-          title: "Follow",
-          items: [
+          title: "Follow",          items: [
             {
-              label: "Instagram",
-              href: "#",
-            },
+              label: "Instagram",              href: "#"},
             {
-              label: "Facebook",
-              href: "#",
-            },
+              label: "Facebook",              href: "#"},
           ],
         },
       ]}
